@@ -1,0 +1,3 @@
+- Para compilar desde la carpeta raiz del proyecto: javac -d bin src/MouseMover.java src/MouseMoverGUI.java
+- Ejecuta el programa con: java -cp bin MouseMoverGUI
+- Para crear el .jar ejecutable de mi programa: jar cfm MouseMover.jar MANIFEST.MF -C bin/ .
